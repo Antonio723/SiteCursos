@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Site em CSS</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header id="containerMenu">
+            <div class="conteudo">
+                <div id="logo">
+                    <img id="imglogo" alt="Imagem escrita IANES" src="img/logo.png">
+                </div>
+                <nav id="menu">
+                    <div id="listMenu">
+                        <ul>
+                            <li class="itemMenu">
+                                <a href="index.html">
+                                    <div class="divSeletor">
+                                        HOME
+                                    </div>
+                                </a>       
+                            </li>
+                            <li class="itemMenu">
+                                <a href="sobre.html">
+                                    <div class="divSeletor">
+                                        SOBRE A IANES
+                                    </div>
+                                </a>
+                            </li>
+                            <div class="divSeletor">
+                                    <li class="itemMenu">
+                                        NOSOS CURSOS
+                                    <ul id="menuCursos">
+                                        <a href="SOP00.html">
+                                            <div class="divSeletor">
+                                                <li class="listCursos">
+                                                     SISTEMAS OPERACIONAIS
+                                                </li>
+                                            </div>    
+                                        </a>
+                                        <a href="LM00.html">
+                                            <div class="divSeletor">
+                                                <li class="listCursos">
+                                                     DESENVOLVIMENTO WEB HTML CSS
+                                                </li>
+                                            </div>    
+                                        </a>
+                                    </ul>
+                                </li>
+                            </div>
+                            <li class="itemMenu">
+                                <a href="index.html">
+                                    <div class="divSeletor">
+                                        CONTATO
+                                    </div>    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="redesSociais">
+                    <a href="https://www.facebook.com/">
+                        <div class="divSeletor">
+                            <div class="sociaisItem">
+                                <img src="img/face.png" alt="logo facebook">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://discord.com/">
+                        <div class="divSeletor">
+                            <div class="sociaisItem">
+                                <img src="img/dis.png" alt="logo discord">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <div class="divSeletor">
+                            <div class="sociaisItem">
+                                <img src="img/insta.png" alt="logo instagram">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!--img saudações-->
+        <div id="containerSlogan">
+        </div>
+        <!--Secao Informações -->
+        <div class="conteudo">
+            <div id="secaoformacoes">
+                 <div id="informacoesSobre">
+                    <ul>
+                        <li>
+                            <strong>SOBRE OS NOSSOS CURSOS</strong><br><br>
+                            <p>
+                                Nossos cursos são exemplos de conteúdo bem aplicado para a formação de excelentes profissionais.
+                            </p><br>
+                            <p>
+                                Nosso curso tem um dos maiores níveis de empregabilidade, chegando aos incríveis 97.3% de profissionais atuantes no mercado.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="InformacoesCarreira">
+                    <ul>
+                        <li>
+                            <strong>
+                                ELEVANDO SUA CARREIRA
+                            </strong>
+                            <br><br>
+                            <p>A educação se transforma e também precisa ser transformada. Para manter um ritmo constante de inovações e adaptações, entendemos que é necessário oferecer produtos e serviços integrados, ferramentas que façam a diferença na vida dos alunos.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="InformacoesPlataforma">
+                    <ul>
+                        <li>
+                            <strong>
+                                A PLATAFORMA
+                            </strong>
+                            <br><br>
+                            <p>Temos as melhores tecnologias dedicadas a melhorar o aprendizado de nossos alunos, e a disposição de ferramentas para nossos professores.</p>
+                                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Seção nossos cursos-->
+        <nav class="conteudo">
+            <div id="boxCursos">
+                <div id="tituloCursos">
+                        <h2 class="tituos">
+                            Nossos Cursos
+                        </h2>
+                    </div>
+                <section class="galeria">
+                    <!--Cursos Já dispponiveis-->
+                    <div class="conteinerCursos">
+                        <figure>
+                                <img class="imagensCursos" src="img/cursos1.jpg" alt="os principais sistemas operacionais">
+                            
+                            <figcaption class="tituos" style="text-align: center">
+                                <a href="SOP00.html">
+                                    SISTEMAS OPERACIONAIS
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="conteinerCursos">
+                        <figure>
+                        <img class="imagensCursos" src="img/cursos2.jpg" alt="os principais sistemas operacionais">
+                            <figcaption class="tituos" style="text-align: center">
+                                <a href="LM00.html">
+                                    DESENVOLVIMENTO WEB HTML CSS
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="conteinerCursos">
+                        <figure>
+                        <img class="imagensCursos" src="img/cursos3.jpg" alt="os principais sistemas operacionais">
+                            <figcaption class="tituos" style="text-align: center">
+                                Git e GitHub
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </nav>
+        <!--Secao Professores-->
+        <nav class="conteudo">
+            <div id="containerPerofessores">
+                <h2 id="tituloProfessores">
+                    APRENDA COM OS MELHORES PROFISSIONAIS DO MERCADO
+                </h2>
+            <div class="boxProfessores"> 
+                <div class="boxImgProfessores">
+                    <img src="img/professor1.jpg" alt="Professor Celson">
+                    <p class="txtImgProfessores">
+                        CELSO MARCOS FURTADO
+                    </p>
+                </div>
+                <div class="boxImgProfessores">
+                    <img src="img/professor2.jpg" alt="Professor Paulo">
+                    <p class="txtImgProfessores">
+                        PAULO MANOEL ALVES SANT ANNA
+                    </p>
+                </div>
+                <div class="boxImgProfessores">
+                    <img src="img/professor3.jpg" alt="Professor Rogerio">
+                    <p class="txtImgProfessores">
+                        ROGERIO DA SILVA ALCANTRA
+                    </p>
+                </div>
+                <div class="boxImgProfessores">
+                    <img src="img/professor4.jpg" alt="Professor Leonid">
+                    <p class="txtImgProfessores">
+                        FERNANDO LEONID CAREAGA CAMELO
+                    </p>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <nav class="conteudo">
+            <div id="containerParceiros">
+                <div id="txtParcerias">
+                    <h1 id="subtituloParcerias">
+                        Instituições parceiras
+                    </h1>
+                </div>
+                <div id="conteudoParceiros">
+                    <div class="parceiros">
+                        <ul>
+                            <li id="txtBoxParceriasBradesco">
+                                <strong>
+                                    FUNDAÇÃO  BRADESCO
+                                </strong>
+                                <br><br>
+                                <p>Com o objetivo de promover a inclusão e o desenvolvimento social, nasceu a Fundação Bradesco, que desde 1956, oferece educação gratuita e de qualidade a milhares de pessoas.</p>
+                            </li>
+                        </ul>    
+                    </div>
+                    <div class="parceiros">
+                        <ul>
+                            <li id="txtBoxParceriasCisco">
+                                <strong>
+                                    Cisco Networking Academy
+                                </strong>
+                                <br><br>
+                                <p>
+                                    A Cisco Networking Academy transforma a vida de alunos, educadores e comunidades com o poder da tecnologia, da educação e das oportunidades de carreira. Disponível para qualquer pessoa, em qualquer lugar.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="parceiros">
+                        <ul>
+                            <li id="txtBoxParceriasCoursera">
+                                <strong>
+                                    Coursera
+                                </strong>
+                                <br><br>
+                                <p>
+                                    O Coursera oferece aulas em vídeos e uma vasta gama de opções de leitura obrigatória e extra, para melhor entendimento dos conteúdos repassados nas vídeo-aulas.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Secao Rodape-->
+        <footer class="conteudo">
+            <div id="conatinerRodape" >
+                <!--Rodape parte superior-->
+                <div id="rodapeSuperior">
+                    <div id="rodapeParteUm">
+                        <h2 class="tituloRodape">
+                                Conheça
+                        </h2>
+                        <p class="textoRodape">
+                            Sobre a IANES
+                            <br><br>
+                            Ajuda
+                            <br><br>
+                            Faça parte da nossa equipe
+                        </p>
+                        
+                    </div>
+                    <div id="rodapeParteDois">
+                        <p>
+                            <b>Endereço: </b> Av. Paulista, 1313 - Cerqueira César, São Paulo - SP, 01311-200
+                            
+                            <br><br><br><br>
+                            
+                            <b>
+                                Pontos de referência:</b>Próximo ao museu de artes de São Paulo (MASP)
+                        </p>
+                    </div>
+                    <div id="rodapeParteTres">
+                        <img src="img/mapa.jpg" alt="mapa de onde fica a fiesp">
+                    </div>
+                    <div id="rodapeParteQuatro">
+                        <div id="contribuicoes">
+                            <h3 class="tituloRodape">
+                                Contribua ou seja assinante
+                            </h3>
+                            <br>
+                            <p>PicPay</p>
+                            <p>Pagarme</p>
+                            <p>Pix</p>
+                            <p>Paypal</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Rodape parte inferior-->
+                <div id="rodapeInferior">
+                    <div id="txtInferior">
+                        <p class="txtinferior">₢ Direitos de autoria reservados peLo grupo IANES e pelos desenvolvedores</p>
+                        <p class="txtinferior">Desenvolvido por Antonio Ailton Gonçalves e por Alex Vinicius Costa</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
